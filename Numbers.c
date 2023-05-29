@@ -2,7 +2,7 @@
 
 /**
  * convert - A program that converts a function
- * @num: The number itself
+ * @number: The number itself
  * @base: The base itself
  * @flags: The flag
  * @params: The structure of the parameter
@@ -10,7 +10,7 @@
  * Return: string
  */
 
-char *convert(long int num, int base, int flags, params_t *params)
+char *convert(long int number, int base, int flags, params_t *params)
 {
 	static char *arr;
 	static char buffer[50];
